@@ -37,10 +37,10 @@ int main()
     scanf("%f",&KMquadrado1);
     printf("\nQual o PIB dessa cidade?\n");
     scanf("%f",&pib1);
-    printf("\nAgora ultima pergunta. Quantos pontos turisticos tem essa ciadade?\n");
+    printf("\nAgora a ultima pergunta. Quantos pontos turisticos tem essa ciadade?\n");
     scanf("%d",&pontos_turisticos1);
     
-    // Entrada de dados primeira carta
+    // Entrada de dados segunda carta
     printf("\n\nFinalizamos a carta nº1, agora vamos cadastrar a carta nº2");
     printf("\nQual nome da cidade que deseja cadastrar:\n");
     scanf("%s",cidade2);
@@ -55,7 +55,7 @@ int main()
     scanf("%f",&KMquadrado2);
     printf("\nQual o PIB dessa cidade?\n");
     scanf("%f",&pib2);
-    printf("\nAgora ultima pergunta. Quantos pontos turisticos tem essa cidade?\n");
+    printf("\nAgora a ultima pergunta. Quantos pontos turisticos tem essa cidade?\n");
     scanf("%d",&pontos_turisticos2);
 
     // Área para exibição dos dados da cidade
@@ -69,7 +69,7 @@ int main()
     printf("Nome da Cidade: %s\n",cidade1);
     printf("População: %d de pessoas\n",populacao1);
     printf("Área: %.2f km²\n",KMquadrado1);
-    printf("PIB: %.2f milhoens de reais\n",pib1);
+    printf("PIB: R$%.2f milhoes de reais\n",pib1);
     printf("Numero de pontos turisticos: %d\n",pontos_turisticos1);
     
     // Exibição Carta 2
@@ -79,7 +79,7 @@ int main()
     printf("Nome da Cidade: %s\n",cidade2);
     printf("População: %d de pessoas\n",populacao2);
     printf("Área: %.2f km²\n",KMquadrado2);
-    printf("PIB: %.2f milhoens de reais\n",pib2);
+    printf("PIB: R$%.2f milhoes de reais\n",pib2);
     printf("Numero de pontos turisticos: %d\n",pontos_turisticos2);
     
     //Finalização
